@@ -4,7 +4,7 @@ Este es un proyecto simple en Java que permite convertir entre distintas monedas
 
 ## 🚀 Características
 
-- Conversión de **cualquier moneda soportada** por la API.
+- Conversión de cualquier moneda soportada por la API.
 - Lista las monedas disponibles antes de convertir.
 - Valida que los datos ingresados sean correctos.
 - Permite realizar múltiples conversiones sin reiniciar el programa.
@@ -12,7 +12,7 @@ Este es un proyecto simple en Java que permite convertir entre distintas monedas
 
 ## 📦 Requisitos
 
-- **Java JDK 17 o superior** (probado con JDK 24).
+- Java JDK 17 o superior (probado con JDK 24).
 - Conexión a internet.
 - Una **API Key gratuita** de [ExchangeRate-API](https://www.exchangerate-api.com/).
 
@@ -29,12 +29,14 @@ private static final String API_KEY = "TU_API_KEY_AQUI";
 
 3. Compila el programa:
 
-bash javac CurrencyConverter.java
-
+```bash 
+javac CurrencyConverter.java
+```
 4. Ejecuta el programa:
 
-bash java CurrencyConverter
-
+```bash
+java CurrencyConverter
+```
 5. ¡Empieza a convertir monedas! ✨
 
 📋 Ejemplo de uso
