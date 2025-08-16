@@ -14,29 +14,27 @@ Este es un proyecto simple en Java que permite convertir entre distintas monedas
 
 - Java JDK 17 o superior (probado con JDK 24).
 - Conexión a internet.
-- Una **API Key gratuita** de [ExchangeRate-API](https://www.exchangerate-api.com/).
+- Una API Key gratuita de [ExchangeRate-API](https://www.exchangerate-api.com/).
 
 ## ⚙️ Instalación y uso
 
 1. Clona este repositorio o descarga el código:
-   ```bash
+
    git clone (URL del projecto)
    cd conversor-monedas-java
-   ```
+
 2. Abre el archivo CurrencyConverter.java y reemplaza la API Key con una obtenida en la página anteriormente mencionada.
 
-private static final String API_KEY = "TU_API_KEY_AQUI";
+   private static final String API_KEY = "TU_API_KEY_AQUI";
 
 3. Compila el programa:
 
-   ```bash 
-javac CurrencyConverter.java
-   ```
+   javac CurrencyConverter.java
+
 4. Ejecuta el programa:
 
-   ```bash
-java CurrencyConverter
-   ```
+   java CurrencyConverter
+
 5. ¡Empieza a convertir monedas! ✨
 
 📋 Ejemplo de uso
