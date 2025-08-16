@@ -22,21 +22,21 @@ Este es un proyecto simple en Java que permite convertir entre distintas monedas
    ```bash
    git clone (URL del projecto)
    cd conversor-monedas-java
-
+   ```
 2. Abre el archivo CurrencyConverter.java y reemplaza la API Key con una obtenida en la página anteriormente mencionada.
 
 private static final String API_KEY = "TU_API_KEY_AQUI";
 
 3. Compila el programa:
 
-```bash 
+   ```bash 
 javac CurrencyConverter.java
-```
+   ```
 4. Ejecuta el programa:
 
-```bash
+   ```bash
 java CurrencyConverter
-```
+   ```
 5. ¡Empieza a convertir monedas! ✨
 
 📋 Ejemplo de uso
